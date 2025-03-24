@@ -13,21 +13,7 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         // Generate system status message
-        const status = `㋡`༒ *__°ɴᴀᴍᴇ -🧸👉🏻 Pathumﾟ🪴* 
-㋡༒ *__:|ꜰʀᴏᴍ-Hambanthota___🌍*
-㋡༒ *💞ᴀɢᴇ -18*
-㋛༒    🫆𝗜 𝗔𝗠 𝗕𝗢𝗬
-
-*┊┊JUST NOW STETUS SEEN_⚙️* 
-
-https://Wa.me//+94773416478?text=Hello_Dark_Shadow😈
-
- ❒||°ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ yᴏᴜ|:_🧑‍💻
-
-> *✅.㋡༒ 🗿SAVE ME.*
-> *🚫ඔයව ඔටො සෙව් වෙනවා මව සෙව් දාගන්න🚫*
-
-ױ༒-Dark-Shadow-༒ 🍃⃞⃫🫆`;
+        const status = `Hi sje`;
 
         // Send the status message with an image
         await conn.sendMessage(from, { 
