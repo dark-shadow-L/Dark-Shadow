@@ -13,16 +13,21 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         // Generate system status message
-        const status = `╭━━〔 *DARK-SHADOW-MD* 〕━━┈⊷
-┃◈╭────────────
-┃◈┃• *⏳Uptime*:  ${runtime(process.uptime())} 
-┃◈┃• *📟 Ram usage*: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
-┃◈┃• *⚙️ HostName*: ${os.hostname()}
-┃◈┃• *👨‍💻 Owner*: DARK SHADOW
-┃◈┃• *🧬 Version*: 3.0.0 BETA
-┃◈└───────────
-╰──────────────
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ ꜱʜᴀᴅᴏᴡ`;
+        const status = `㋡`༒ *__°ɴᴀᴍᴇ -🧸👉🏻 Pathumﾟ🪴* 
+㋡༒ *__:|ꜰʀᴏᴍ-Hambanthota___🌍*
+㋡༒ *💞ᴀɢᴇ -18*
+㋛༒    🫆𝗜 𝗔𝗠 𝗕𝗢𝗬
+
+*┊┊JUST NOW STETUS SEEN_⚙️* 
+
+https://Wa.me//+94773416478?text=Hello_Dark_Shadow😈
+
+ ❒||°ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ yᴏᴜ|:_🧑‍💻
+
+> *✅.㋡༒ 🗿SAVE ME.*
+> *🚫ඔයව ඔටො සෙව් වෙනවා මව සෙව් දාගන්න🚫*
+
+ױ༒-Dark-Shadow-༒ 🍃⃞⃫🫆`;
 
         // Send the status message with an image
         await conn.sendMessage(from, { 
