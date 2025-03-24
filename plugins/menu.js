@@ -13,34 +13,33 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━━━〔 *DARK SHADOW MD* 〕━━━┈⊷
-┃★╭──────────────
-┃★│ Owner : *${config.OWNER_NAME}*
-┃★│ Baileys : *Multi Device*
-┃★│ Type : *NodeJs*
-┃★│ Platform : *Heroku*
-┃★│ Mode : *[${config.MODE}]*
-┃★│ Prifix : *[${config.PREFIX}]*
-┃★│ Version : *3.0.0 Bᴇᴛᴀ*
+        let dec = `*👋𝗛𝗲𝗹𝗹𝗼 𝘄𝗲𝗹𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 DARK SHADOW MD 🎊*
+╭──────────────
+┃👨‍💻│ Owner : *${config.OWNER_NAME}*
+┃🧾│ Baileys : *Multi Device*
+┃📌│ Type : *NodeJs*
+┃🔖│ Platform : *Heroku*
+┃🔰│ Mode : *[${config.MODE}]*
+┃☣️│ Prifix : *[${config.PREFIX}]*
+┃🛡️│ Version : *3.0.0 Bᴇᴛᴀ*
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 ╭━━〔 *Menu List* 〕━━┈⊷
 ┃◈╭─────────────·๏
-┃◈┃• Prayertime
-┃◈┃• Aimenu
-┃◈┃• Anmiemenu
-┃◈┃• Reactions
-┃◈┃• Convertmenu
-┃◈┃• Funmenu
-┃◈┃• Dlmenu
-┃◈┃• Listcmd
-┃◈┃• Mainmenu
-┃◈┃• Groupmenu
-┃◈┃• Allmenu
-┃◈┃• Ownermenu
-┃◈┃• Othermenu
-┃◈┃• Logo <text>
-┃◈┃• Repo
+┃❄️┃• Aimenu
+┃❄️┃• Anmiemenu
+┃❄️┃• Reactions
+┃❄️┃• Convertmenu
+┃❄️┃• Funmenu
+┃❄️┃• Dlmenu
+┃❄️┃• Listcmd
+┃❄️┃• Mainmenu
+┃❄️┃• Groupmenu
+┃❄️┃• Allmenu
+┃❄️┃• Ownermenu
+┃❄️┃• Othermenu
+┃❄️┃• Logo <text>
+┃❄️┃• Repo
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 > ${config.DESCRIPTION}`;
@@ -48,7 +47,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://telegra.ph/file/1ece2e0281513c05d20ee.jpg` },
+                image: { url: `https://files.catbox.moe/slm10t.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
